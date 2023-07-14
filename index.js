@@ -1,15 +1,8 @@
+function greet(name, lastName) {
+    console.log('Hello '+ name + ' ' + lastName);    
+}
 
-let person = {
-    name: 'Jordan',
-    age: 42
-};
 
-// Dot Notation
-person.name = 'John';
-person.age = "62";
+greet('John', 'Smith');
 
-// Bracket Notation
-let selection = 'name'
-person[selection] = 'Mary'
 
-console.log(person.name);
