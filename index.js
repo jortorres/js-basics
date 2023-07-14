@@ -4,5 +4,6 @@ function greet(name, lastName) {
 
 
 greet('John', 'Smith');
+// testing
 
 
